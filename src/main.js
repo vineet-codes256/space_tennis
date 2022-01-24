@@ -17,7 +17,7 @@ let ball = new Ball();
 let paddle1 = new Paddle();
 let paddle2 = new Paddle();
 
-const WINNING_SCORE = 4;
+const WINNING_SCORE = 5;
 
 let showingMenuScreen = false;
 
@@ -80,7 +80,7 @@ function draw() {
   drawImageCenteredAtLocationWithScaling(bgPic, canvas.width/2, canvas.height/2, canvas.width, canvas.height);
 
   if(showingMenuScreen) {
-    canvasContext.font = "30px Arial bold";
+    canvasContext.font = "30px Comic sans bold";
     canvasContext.fillStyle = 'white';
 
     if (paddle1.score >= WINNING_SCORE) {
