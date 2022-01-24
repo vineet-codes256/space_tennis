@@ -17,7 +17,7 @@ let ball = new Ball();
 let paddle1 = new Paddle();
 let paddle2 = new Paddle();
 
-const WINNING_SCORE = 3;
+const WINNING_SCORE = 4;
 
 let showingMenuScreen = false;
 
