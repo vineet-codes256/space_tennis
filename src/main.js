@@ -55,7 +55,7 @@ function restartGame() {
   paddle1.reset();
   paddle2.reset();
   showingMenuScreen = false;
-  musicBackground.loopMusic('assets/sounds/music');
+  musicBackground.loopMusic('assets/sounds/Blow');
 }
 
 function update() {
